@@ -7,3 +7,5 @@ as of now I am starting/working on/done with:
 - Drogon (cpp)
 - rocket.rs (rs) (I will work on rocket + yew after the todo)
 - artix (rs)
+
+for more frameworks I used: [https://github.com/the-benchmarker/web-frameworks](https://github.com/the-benchmarker/web-frameworks)
