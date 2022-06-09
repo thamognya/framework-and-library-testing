@@ -14,11 +14,11 @@ def wildcard(request, word_to_say):
     # Transofrm 
     # send email
     if (word_to_say == "blog"):
-        # return HttpResponse(f'Blog')
-        return render(request, 'playground/blog.html')
+         return HttpResponse(f'Blog')
+        #return render(request, 'playground/blog.html')
     elif (word_to_say == "test"):
-        # return HttpResponse(f'Test')
-        return render(request, 'playground/test.html')
+         return HttpResponse(f'Test')
+        #eturn render(request, 'playground/test.html')
     else:
-        #return HttpResponse(f'404 error: /{word_to_say} is not found')
-        return render(request, 'playground/error.html', {"context":word_to_say})
+        return HttpResponse(f'404 error: /{word_to_say} is not found')
+        #return render(request, 'playground/error.html', {"context":word_to_say})
